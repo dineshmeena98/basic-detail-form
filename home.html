@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Stack developer Updated</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <h2>Post Job</h2>
+        <h1>Basic Details</h1>
+        <div class="row">
+            <h2>Job Title*</h2>
+            <input type="text" name="jobtitle" class="job-des" placeholder="Write a title that appropriately describes this job">
+        </div>
+        <div class="row">
+            <h3>Location*</h3>
+            <input type="text" name="Location" class="job-des" placeholder="+Add location">
+        </div>
+        <div class="row">
+            <h2>Years of experience*</h2>
+            <div class="col-1">
+                <select class="s-1">
+                <option value="select" selected>Select Min</option>
+                <option value="1">1 </option>
+                </option>
+               </select>
+            </div>
+            <div class="col-2">
+                <select class="s-2">
+                    <option value="select" selected>Select Max</option>
+                    <option value="5">5+ </option>   
+                    </option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <h3>Job Description*</h3>
+            <textarea name="Job Description " class="job-des" placeholder="Describe the role and responsibilities, skilis required for the job and helf the job and help the candidates understand the role better "></textarea>
+
+        </div>
+
+
+        <div class="row">
+            <h1>Targeting</h1>
+            <div class="col-1">
+                <h2>Category*</h2>
+                <select class="s-1">
+                    <option value="select" selected>Select</option>
+                    <option value="Software Dev" >Software Dev</option>
+                    
+                </select>
+
+            </div>
+            <div class="col-2">
+                <h2> Functional Area*</h2>
+                <select class="s-2">
+                        
+                            <option value="select" selected>Select</option>
+                            <option value="Jaipur">Jaipur</option>
+                            <option value=" Ahmedabad">Ahmedabad</option>
+                            <option value="Delhi ">Delhi</option>
+                    </select>
+
+
+            </div>
+        </div>
+        <div class="row">
+            <h2>Graduating Year*</h2>
+            <div class="col-1">
+                <select class="s-1">
+            <option value="select" selected>Min Batch</option>
+            <option value="2021">2021</option>
+            </select>
+            </div>
+            <div class="col-2">
+                <select class="s-2">
+            <option value="select" selected>Max Batch</option>
+            <option value="2023">2023</option>
+            </select>
+            </div>
+        </div>
+        <div class="row">
+            <h2>Tags</h2>
+            <input type="text" placeholder="+Add job tag" class="tag"><br>
+            <button onclick="add()">Add</button>
+
+            <div id="new_chq"></div>
+            <input type="hidden" value="1" id="total_chq">
+
+        </div>
+        <p>
+            <input type="button" value="PostJob" id="button">
+            <input type="button" value="Post job and Add Another Job " class="button">
+            <button type="cancel" onclick="">Cancel</button>
+        </p>
+</body>
+<script src="script.js"></script>
+
+</html>

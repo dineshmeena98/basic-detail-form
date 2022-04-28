@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+.main {
+    margin: auto;
+    width: 800px;
+}
+
+h1 {
+    color: rgb(0, 255, 170);
+}
+
+.row-1 {
+    width: 800px;
+}
+
+.row {
+    width: 800px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-shadow: none;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.col-1 {
+    width: 400px;
+    float: left;
+    font-size: 10px;
+    text-align: left;
+    text-transform: capitalize;
+    text-shadow: none;
+    text-decoration: none;
+}
+
+.job-des {
+    width: 80%;
+    height: 75px;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-shadow: none;
+    overflow: scroll;
+}
+
+.select {
+    width: 60%;
+    height: 50px;
+    font-size: 10px;
+    text-align: left;
+    text-transform: capitalize;
+    text-shadow: none;
+    text-decoration: none;
+}
+
+.s-1 {
+    width: 60%;
+    height: 50px;
+    font-size: 20px;
+    text-align: left;
+    text-transform: capitalize;
+    text-shadow: none;
+    text-decoration: none;
+}
+
+.s-2 {
+    width: 30%;
+    height: 50px;
+    font-size: 20px;
+    text-align: left;
+    text-transform: capitalize;
+    text-shadow: none;
+    text-decoration: none;
+}
+
+.tag {
+    width: 80%;
+    height: 50px;
+}
+
+#button {
+    background-color: #008000;
+    color: white;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #ffffff;
+    color: #008000;
+    font-size: 15px;
+    padding: 5px;
+}
